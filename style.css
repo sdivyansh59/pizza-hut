@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    position: absolute;
+    color: whitesmoke;
+    margin-left: 500px;
+    margin-top: 280px;
+    font-size: 80px;
+}
+
+.imgDiv{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+.imgDiv img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.secondDiv{
+    display: flex;
+
+}
+.secondDiv div{
+    height: 200px;
+    flex: 1;
+    /* border: 1px solid yellow; */
+}
+
+
+/* IFrame  add youtube link */
+.divIFrame{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    /* border: 1px dotted red; */
+}
+.divIFrame div{
+    height: 300px;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    flex: 1;
+}
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.row1{
+    display: flex;
+    background-color: #242726;
+    height: 200px;
+
+}
+.row1 div{
+    flex: 1;
+}
+
+.row2{
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px   350px;
+    /* margin-left: 50px; */
+}
+
+
+.fontawesomeDiv{
+display: flex;
+flex-direction: column;
+}
+
+.fontawesomeRow1{
+    display: flex;
+    
+}
+.fontawesomeRow1 div{
+    flex: 1;
+    margin-top: 10%;
+}
+
+.fontawesomeRow2{
+    display: flex;
+}
+.fontawesomeRow2 div a{
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
