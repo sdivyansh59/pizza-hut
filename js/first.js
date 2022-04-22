@@ -10,17 +10,9 @@ function moveImg(){
         }
 
         // change margin
-
         console.log(`${100*index}vw`);
         console.log(document.getElementById("myDiv").style.marginLeft= `${100*index}vw`);
-        // element.style.marginLeft =  `${100*index}vw`;
-        // if(index == 0){
-        //     element.style.marginLeft = - `${100*index}vw`;
-        // }else if(index == 1){
-        //     element.style.left = "100vw";
-        // }else{
-        //     element.style.marginLeft = "100vw";
-        // }
+       
        
     }, 2000);
 
