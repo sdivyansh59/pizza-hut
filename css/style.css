@@ -1,10 +1,10 @@
-
-*{
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-html{
+
+html {
     margin: 0px;
     padding: 0px;
     font-size: 10px;
@@ -12,7 +12,7 @@ html{
 }
 
 
-.heading{
+.heading {
     position: absolute;
     color: whitesmoke;
     margin-left: 38%;
@@ -20,7 +20,7 @@ html{
     font-size: 10rem;
 }
 
-.offerDiv{
+.offerDiv {
     height: 2rem;
     background-color: teal;
     color: white;
@@ -29,27 +29,28 @@ html{
     font-weight: bold;
     width: 100%;
 }
-.offerDiv div{
-    
-}
 
-.imgDiv{
+.offerDiv div {}
+
+.imgDiv {
     height: 100vh;
     width: 100vw;
     /* border: 2px solid red; */
     display: flex;
     margin-left: 0vw;
 }
-.imgDiv img{
+
+.imgDiv img {
     width: 100vw;
     height: 100vh;
     object-fit: fill;
 }
 
-.secondDiv{
+.secondDiv {
     display: flex;
 }
-.secondDiv div{
+
+.secondDiv div {
     height: 25rem;
     flex: 1;
     /* border: 1px solid yellow; */
@@ -57,66 +58,70 @@ html{
 
 
 /* IFrame  add youtube link */
-.divIFrame{
+.divIFrame {
     display: flex;
     background-color: black;
     color: whitesmoke;
     width: 100%;
     /* border: 1px dotted red; */
 }
-.divIFrame div{
+
+.divIFrame div {
     height: 35rem;
     /* border: 1px solid blue; */
     padding: 1rem;
-    
+
 }
 
 
 
 /* footer */
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
 }
 
-.row1{
+.row1 {
     display: flex;
     /* background-color: #242726; */
     height: 20rem;
 
 }
-.row1 div{
+
+.row1 div {
     flex: 1;
 }
 
-.row2{
+.row2 {
     background-color: green;
     color: whitesmoke;
-    padding: 1rem   30%;
+    padding: 1rem 30%;
     text-align: center;
     /* margin-left: 50px; */
 }
 
 
-.fontawesomeDiv{
-display: flex;
-flex-direction: column;
+.fontawesomeDiv {
+    display: flex;
+    flex-direction: column;
 }
 
-.fontawesomeRow1{
+.fontawesomeRow1 {
     display: flex;
-    
+
 }
-.fontawesomeRow1 div{
+
+.fontawesomeRow1 div {
     flex: 1;
     margin-top: 10%;
 }
 
-.fontawesomeRow2{
+.fontawesomeRow2 {
     display: flex;
 }
-.fontawesomeRow2 div a{
+
+.fontawesomeRow2 div a {
     font-size: larger;
     font-weight: bold;
     /* color: whitesmoke; */
@@ -126,33 +131,38 @@ flex-direction: column;
 
 
 /* media Queries */
-@media only screen and (max-width: 600px){
-    
-    .secondDiv{
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 8px;
+    }
+
+    .secondDiv {
         flex-direction: column;
     }
-    .secondDiv div{
-         height: 25rem;
-         width: 100%;
-         flex: 1;
-    /* border: 1px solid yellow; */
+
+    .secondDiv div {
+        height: 25rem;
+        width: 100%;
+        flex: 1;
+        /* border: 1px solid yellow; */
     }
 
 
 
-    .divIFrame{
+    .divIFrame {
         flex-direction: column;
         background-color: black;
         color: whitesmoke;
         width: 100%;
         /* border: 1px dotted red; */
     }
-    .divIFrame div{
+
+    .divIFrame div {
         height: 35rem;
         /* border: 1px solid blue; */
         padding: 1rem;
         width: 100%;
-        
+
     }
 
 }
